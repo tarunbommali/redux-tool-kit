@@ -1,0 +1,34 @@
+{
+  "name": "redux-tool-kit",
+  "version": "1.0.0",
+  "description": "Redux tool kit - Archtechture ",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx build parcel  index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarunbommali/redux-tool-kit.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "TarunBommali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tarunbommali/redux-tool-kit/issues"
+  },
+  "homepage": "https://github.com/tarunbommali/redux-tool-kit#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
